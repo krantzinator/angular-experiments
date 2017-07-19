@@ -9,6 +9,9 @@ import { HeroDetailComponent } from './hero-detail.component';
 import { HeroesComponent } from './heroes.component';
 import { HeroService } from './hero.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { TableFunComponent } from './table-fun/table-fun.component';
+import { PictureHeaderComponent } from './picture-header/picture-header.component';
+import { HeroesNavComponent } from './heroes-nav/heroes-nav.component';
 
 @NgModule({
   imports: [
@@ -20,7 +23,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     AppComponent,
     HeroDetailComponent,
     HeroesComponent,
-    DashboardComponent
+    DashboardComponent,
+    TableFunComponent,
+    PictureHeaderComponent,
+    HeroesNavComponent
   ],
   providers: [ HeroService ],
   bootstrap: [ AppComponent ]

@@ -1,0 +1,164 @@
+<!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Title</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Title</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content">
+
+
+
+
+<!-- Number badge on icon -->
+<div class="material-icons mdl-badge mdl-badge--overlap" data-badge="1">account_box</div>
+
+<!-- Number badge on icon -->
+<div class="material-icons mdl-badge mdl-badge--overlap" data-badge="♥">account_box</div>
+
+<!-- Icon badge -->
+<span class="mdl-badge" data-badge="♥">Mood</span>
+<!-- Number badge -->
+<span class="mdl-badge" data-badge="4">Inbox</span>
+
+<!-- Colored raised button -->
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">
+  One
+</button>
+<!-- Primary-colored flat button -->
+<button class="mdl-button mdl-js-button mdl-button--primary">
+  Two
+</button>
+<!-- Colored mini FAB button -->
+<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored">
+  <i class="material-icons">add</i>
+</button>
+
+<!-- Raised button with ripple -->
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+  Three
+</button>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">
+  Four
+</button>
+
+<!-- FAB button -->
+<button class="mdl-button mdl-js-button mdl-button--fab">
+  <i class="material-icons">add</i>
+</button>
+<!-- Colored FAB button -->
+<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+  <i class="material-icons">add</i>
+</button>
+
+<!-- Wide card with share menu button -->
+
+<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Welcome</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Mauris sagittis pellentesque lacus eleifend lacinia...
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      Get Started
+    </a>
+  </div>
+  <div class="mdl-card__menu">
+    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+      <i class="material-icons">share</i>
+    </button>
+  </div>
+</div>
+
+<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-1">
+  <input type="checkbox" id="switch-1" class="mdl-switch__input" checked>
+  <span class="mdl-switch__label"></span>
+</label>
+<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-2">
+  <input type="checkbox" id="switch-2" class="mdl-switch__input">
+  <span class="mdl-switch__label"></span>
+</label>
+
+<table class="mdl-data-table mdl-js-data-table">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">Name</th>
+      <th class="mdl-data-table__cell--non-numeric">Nickname</th>
+      <th>Age</th>
+      <th class="mdl-data-table__cell--non-numeric">Living?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">John Lennon</td>
+      <td class="mdl-data-table__cell--non-numeric">The smart one</td>
+      <td>40</td>
+      <td class="mdl-data-table__cell--non-numeric">No</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Paul McCartney</td>
+      <td class="mdl-data-table__cell--non-numeric">The cute one</td>
+      <td>73</td>
+      <td class="mdl-data-table__cell--non-numeric">Yes</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">George Harrison</td>
+      <td class="mdl-data-table__cell--non-numeric">The shy one</td>
+      <td>58</td>
+      <td class="mdl-data-table__cell--non-numeric">No</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Ringo Starr</td>
+      <td class="mdl-data-table__cell--non-numeric">The funny one</td>
+      <td>74</td>
+      <td class="mdl-data-table__cell--non-numeric">Yes</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Simple Tooltip -->
+<div id="tt1" class="icon material-icons">add</div>
+<div class="mdl-tooltip" data-mdl-for="tt1">
+Follow
+</div>
+
+
+<footer class="mdl-mini-footer">
+  <div class="mdl-mini-footer__left-section">
+    <div class="mdl-logo">Title</div>
+    <ul class="mdl-mini-footer__link-list">
+      <li><a href="#">Help</a></li>
+      <li><a href="#">Privacy & Terms</a></li>
+    </ul>
+  </div>
+</footer>
+
+    </div>
+  </main>
+</div>
+
+
+
